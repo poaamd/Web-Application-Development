@@ -1,0 +1,101 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+   
+
+<main class="container">
+  <div class="jumbotron">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .project {
+            background-color: #fff;
+            max-width: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .resume-link {
+                font-size: 20px;
+                text-decoration: none;
+                color: #333;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+    </header>
+
+    <section class="project">
+        <h2>Project 1</h2>
+        <p>
+          Bug Smasher Game
+          This is my project number 1, one of projects i did in Javascript class in last semester.
+          It is a bug smasher game with two button that you can reset speed and score.
+      </p>
+        <img src="/img/project1.jpg" alt="Project 1">
+       
+    </section>
+
+    <section class="project">
+      <h2>Project 2</h2>
+      <p>
+        Table Creater
+        This is my project number 2, one of projects i did in Javascript class in last semester.
+        It is a Table creator that able to recive two number for columne and row and creat table base on that.
+      </p>
+        <img src="/img/project2.jpg" alt="Project 2">
+       
+    </section>
+
+    <section class="project">
+      <h2>Project 3</h2>
+        <p>
+Calculator
+this is my project number 3, one of my projects that i created in last semester for programing 2 with c# language 
+</p>
+        <img src="/img/project3.jpg" alt="Project 3">
+        
+    </section>
+</body>
+</html>
+
+    </main>
+    <!--bottom nav-->
+   
+   
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
+   
