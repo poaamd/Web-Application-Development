@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.form-container {
+  display: inline-block;
+  margin: 25px;
+  padding: 35px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h2 {
+  font-size: 24px;
+  
+}
+
+label{
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: left;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 85%;
+  font-size: 16px;
+  height: 25px;
+  resize: none;
+}
+
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  flex: 1; 
+  margin : 0 30px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
